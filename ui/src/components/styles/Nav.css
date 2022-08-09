@@ -1,0 +1,63 @@
+.Nav {
+   background-color: #D3D3D3;
+  display: flex; 
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  height: 136px;
+  left: 0px;
+  top: 0px;
+}
+.Nav ul {
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+}
+
+.saxLogo {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.leftSide{
+   display: flex;
+   align-items: center;
+}
+.leftSide li {
+   display: flex;
+   justify-content: space-between;  
+   text-decoration: none;
+   margin-left: 10px;
+}
+.rightSide li {
+  display: flex;
+  justify-content: space-between;
+}
+.Nav .svg-inline--fa  {
+   margin-right: 10px;
+}
+.Nav a {
+   text-decoration: none;
+   color :black;
+}
+.Nav Button {
+   margin-right: 0.5rem;
+  }
+
+.rightSide {
+   display: flex;
+   justify-content: space-evenly;
+   min-width: 15rem;
+}
+.basketBlock{
+   position: relative;
+   margin-left: 0.5rem;
+}
+
+.basketBlock p{
+   position:absolute;
+   z-index:3;
+   color:red;
+   top:-3px;
+   right:-4px;
+}

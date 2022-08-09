@@ -1,0 +1,38 @@
+version: "2.4"
+services:
+  ui:
+    image: projet3_ui
+    container_name: projet3_ui
+    build:
+      context: ui
+    mem_limit: 1g
+    networks:
+      - projet3_network
+    depends_on:
+      - server
+
+  server:
+    image: projet3_server
+    container_name: projet3_server
+    build:
+      context: server
+    mem_limit: 1g
+    restart: unless-stopped
+    networks:
+      - projet3_network
+    depends_on:
+      - mongodb
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/irongratte?retryWrites=true&w=majority
+
+  mongodb:
+    image: mongo:4.2.13-bionic
+    container_name: projet3_mongodb
+    restart: unless-stopped
+    mem_limit: 3g
+    networks:
+      - projet3_network
+
+networks:
+  projet3_network:
+    name: projet3_network
