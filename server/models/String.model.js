@@ -1,10 +1,10 @@
-const { Schema, model, SchemaTypes } = require("mongoose");
-const Product = require("./Product.model");
+const { Schema, model, SchemaTypes } = require('mongoose')
+const Product = require('./Product.model')
 
 const StringInstru = Product.discriminator(
-  "StringInstruSchema",
+  'StringInstruSchema',
   new Schema({
-    type: { type: String, enum: ["violin", "viola", "cello", "doubleBass"] },
+    type: { type: String, enum: ['violin', 'viola', 'cello', 'doubleBass'] },
     //4/4
     size: String,
     //solid maple body
@@ -15,6 +15,6 @@ const StringInstru = Product.discriminator(
     strings: String,
     caseIncluded: Boolean,
   })
-);
+)
 
-module.exports = StringInstru;
+module.exports = StringInstru

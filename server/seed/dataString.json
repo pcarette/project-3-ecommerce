@@ -17,7 +17,7 @@
     "strings": "Pirastro Evah Pirazzi Gold",
     "caseIncluded": true,
     "size": "4/4",
-    "stockQuantity":2
+    "stockQuantity": 2
   },
   {
     "brand": "Scala",
@@ -37,7 +37,7 @@
     "strings": "Pirastro Evah Pirazzi Gold",
     "caseIncluded": false,
     "size": "4/4",
-    "stockQuantity":5
+    "stockQuantity": 5
   },
   {
     "brand": "Ernst",
@@ -57,7 +57,7 @@
     "strings": "Pirastro Tonica",
     "caseIncluded": false,
     "size": "4/4",
-    "stockQuantity":3
+    "stockQuantity": 3
   },
   {
     "brand": "Stentor",
@@ -77,7 +77,7 @@
     "strings": "Pirastro Tonica",
     "caseIncluded": true,
     "size": "4/4",
-    "stockQuantity":10
+    "stockQuantity": 10
   },
   {
     "brand": "Scala",
@@ -97,7 +97,7 @@
     "strings": "Thomastik Dominant",
     "caseIncluded": true,
     "size": "16,5",
-    "stockQuantity":3
+    "stockQuantity": 3
   },
   {
     "brand": "Klaus Heffler",
@@ -117,7 +117,7 @@
     "strings": "Pirastro Obligato",
     "caseIncluded": true,
     "size": "16",
-    "stockQuantity":0
+    "stockQuantity": 0
   },
   {
     "brand": "Franz Sandner",
@@ -137,7 +137,7 @@
     "strings": "Pirastro Tonica",
     "caseIncluded": true,
     "size": "16,5",
-    "stockQuantity":8
+    "stockQuantity": 8
   },
   {
     "brand": "Klaus Heffler",
@@ -157,7 +157,7 @@
     "strings": "Pirastro Obligato",
     "caseIncluded": true,
     "size": "16",
-    "stockQuantity":4
+    "stockQuantity": 4
   },
 
   {
@@ -178,7 +178,7 @@
     "strings": "Pirastro Obligato",
     "caseIncluded": false,
     "size": "4/4",
-    "stockQuantity":9
+    "stockQuantity": 9
   },
   {
     "brand": "Gewa",
@@ -198,7 +198,7 @@
     "strings": "Jargar Classic Medium",
     "caseIncluded": true,
     "size": "7/8",
-    "stockQuantity":12
+    "stockQuantity": 12
   },
   {
     "brand": "Thomann",
@@ -218,7 +218,7 @@
     "strings": "Jargar Classic Medium",
     "caseIncluded": false,
     "size": "4/4",
-    "stockQuantity":4
+    "stockQuantity": 4
   },
   {
     "brand": "Thomann",
@@ -238,7 +238,7 @@
     "strings": "Jargar Superior",
     "caseIncluded": true,
     "size": "4/4",
-    "stockQuantity":9
+    "stockQuantity": 9
   },
 
   {
@@ -259,7 +259,7 @@
     "strings": "Thomastik Spirocore Double Bass 3/4 L",
     "caseIncluded": true,
     "size": "3/4",
-    "stockQuantity":7
+    "stockQuantity": 7
   },
   {
     "brand": "Meister",
@@ -279,7 +279,7 @@
     "strings": "Thomastik Spirocore Double Bass 3/4 L",
     "caseIncluded": true,
     "size": "3/4",
-    "stockQuantity":7
+    "stockQuantity": 7
   },
   {
     "brand": "Meister",
@@ -299,7 +299,7 @@
     "strings": "Daddario HH610-3/4M Helicore Bass 3/4",
     "caseIncluded": false,
     "size": "3/4",
-    "stockQuantity":7
+    "stockQuantity": 7
   },
   {
     "brand": "Meister",
@@ -319,6 +319,6 @@
     "strings": "Daddario HH610-3/4M Helicore Bass 3/4",
     "caseIncluded": false,
     "size": "3/4",
-    "stockQuantity":3
+    "stockQuantity": 3
   }
 ]

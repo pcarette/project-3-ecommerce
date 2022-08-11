@@ -1,37 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle, faCircleDot } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircle, faCircleDot } from '@fortawesome/free-solid-svg-icons'
 
-import "./styles/CarouselImageCounter.css";
+import './styles/CarouselImageCounter.css'
 
 export default function CarouselImageCounter({ index, maxIndex }) {
-  const [arrayOfIndexes, setArrayOfIndexes] = useState([]);
+  const [arrayOfIndexes, setArrayOfIndexes] = useState([])
 
   useEffect(() => {
-    const array = [];
+    const array = []
     for (let i = 0; i < maxIndex; i++) {
-      array.push(i <= index ? true : false);
+      array.push(i <= index ? true : false)
     }
-    setArrayOfIndexes(array);
-  }, [index, maxIndex]);
+    setArrayOfIndexes(array)
+  }, [index, maxIndex])
 
   return (
-    <div className="CarouselImageCounter index">
+    <div className='CarouselImageCounter index'>
       {arrayOfIndexes.map((val, i) => {
         return val ? (
-          <FontAwesomeIcon
-            key={`${val}-${i}`}
-            className="carouselImageCounter blue icon"
-            icon={faCircle}
-          />
+          <FontAwesomeIcon key={`${val}-${i}`} className='carouselImageCounter blue icon' icon={faCircle} />
         ) : (
-          <FontAwesomeIcon
-            key={`${val}-${i}`}
-            className="carouselImageCounter blue"
-            icon={faCircleDot}
-          />
-        );
+          <FontAwesomeIcon key={`${val}-${i}`} className='carouselImageCounter blue' icon={faCircleDot} />
+        )
       })}
     </div>
-  );
+  )
 }

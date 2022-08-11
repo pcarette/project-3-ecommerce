@@ -1,23 +1,23 @@
-.ProductDetails{
-    display:flex;
-    justify-content:center;
-    margin:0 auto;
-    gap:30px;
+.ProductDetails {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 30px;
 }
 
-.inStockChecked{
-    color:green;
+.inStockChecked {
+  color: green;
 }
 
-.inStockUnchecked{
-    color:red;
+.inStockUnchecked {
+  color: red;
 }
 
-.leftSideDetails{
-    display:flex;
-    flex-direction:column;
+.leftSideDetails {
+  display: flex;
+  flex-direction: column;
 }
 
-.detail{
-    font-weight:800;
+.detail {
+  font-weight: 800;
 }

@@ -1,4 +1,4 @@
-const { Schema, model, SchemaTypes } = require("mongoose");
+const { Schema, model, SchemaTypes } = require('mongoose')
 
 // TODO: Please make sure you edit the user model to whatever makes sense in this case
 const userSchema = new Schema(
@@ -23,16 +23,16 @@ const userSchema = new Schema(
       default: false,
     },
     emailValidationCode: {
-      type:Number,
-      required:true
-    }
+      type: Number,
+      required: true,
+    },
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`
     timestamps: true,
   }
-);
+)
 
-const User = model("User", userSchema);
+const User = model('User', userSchema)
 
-module.exports = User;
+module.exports = User

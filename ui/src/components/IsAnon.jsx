@@ -1,15 +1,15 @@
-import { useContext } from "react";
-import { AuthContext } from "../context/auth.context";
-import { Navigate } from "react-router-dom";
+import { useContext } from 'react'
+import { AuthContext } from '../context/auth.context'
+import { Navigate } from 'react-router-dom'
 
 function IsAnon({ children }) {
-  const { isLoggedIn, isLoading } = useContext(AuthContext);
-  if (isLoading) return <p>Loading ...</p>;
+  const { isLoggedIn, isLoading } = useContext(AuthContext)
+  if (isLoading) return <p>Loading ...</p>
   if (isLoggedIn) {
-    return <Navigate to="/" />;
+    return <Navigate to='/' />
   } else {
-    return children;
+    return children
   }
 }
 
-export default IsAnon;
+export default IsAnon
