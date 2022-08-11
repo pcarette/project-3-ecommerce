@@ -1,7 +1,7 @@
 [
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "Yellow",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -29,11 +29,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/501346/16186386_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/501346/16186451_800.jpg"
     ],
-    "stockQuantity":10
+    "stockQuantity": 10
   },
   {
-    "type":"Guitar",
-    "brand":"Xotic",
+    "type": "Guitar",
+    "brand": "Xotic",
     "Colour": "Blonde",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -59,11 +59,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/527368/17342848_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/527368/17342818_800.jpg"
     ],
-    "stockQuantity":10
+    "stockQuantity": 10
   },
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "Blonde",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -91,11 +91,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/532637/17203333_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/532637/17203328_800.jpg"
     ],
-    "stockQuantity":20
+    "stockQuantity": 20
   },
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "White",
     "Fretboard": "Rosewood",
     "Neck": "Maple",
@@ -110,11 +110,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/538666/17036904_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/538666/17036903_800.jpg"
     ],
-    "stockQuantity":9
+    "stockQuantity": 9
   },
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "Sunburst",
     "Fretboard": "Rosewood",
     "Neck": "Maple",
@@ -125,11 +125,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/538993/17054938_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/538993/17054933_800.jpg"
     ],
-    "stockQuantity":18
+    "stockQuantity": 18
   },
   {
-    "type":"Guitar",
-    "brand":"Suhr",
+    "type": "Guitar",
+    "brand": "Suhr",
     "Colour": "Black",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -155,11 +155,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/509777/17372196_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/509777/17372146_800.jpg"
     ],
-    "stockQuantity":13
+    "stockQuantity": 13
   },
   {
-    "type":"Guitar",
-    "brand":"Xotic",
+    "type": "Guitar",
+    "brand": "Xotic",
     "Colour": "Green",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -186,11 +186,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/527385/17399691_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/527385/17399660_800.jpg"
     ],
-    "stockQuantity":10
+    "stockQuantity": 10
   },
   {
-    "type":"Guitar",
-    "brand":"Harley",
+    "type": "Guitar",
+    "brand": "Harley",
     "Colour": "Natural",
     "Frets": 22,
     "price": 333,
@@ -212,11 +212,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/469461/16561406_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/469461/16561396_800.jpg"
     ],
-    "stockQuantity":7
+    "stockQuantity": 7
   },
   {
-    "type":"Guitar",
-    "brand":"Squier",
+    "type": "Guitar",
+    "brand": "Squier",
     "Colour": "Sunburst",
     "Fretboard": "Indian Laurel",
     "Neck": "Maple",
@@ -240,11 +240,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/468475/15241703_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/468475/15241708_800.jpg"
     ],
-    "stockQuantity":11
+    "stockQuantity": 11
   },
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "Natural",
     "Fretboard": "Indian Laurel",
     "Neck": "Mahogany",
@@ -266,11 +266,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/439362/13651396_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/439362/13651401_800.jpg"
     ],
-    "stockQuantity":13
+    "stockQuantity": 13
   },
   {
-    "type":"Guitar",
-    "brand":"Squier",
+    "type": "Guitar",
+    "brand": "Squier",
     "Colour": "Natural",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -295,11 +295,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/468477/15240438_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/468477/15240403_800.jpg"
     ],
-    "stockQuantity":21
+    "stockQuantity": 21
   },
   {
-    "type":"Guitar",
-    "brand":"Harley",
+    "type": "Guitar",
+    "brand": "Harley",
     "Colour": "Black",
     "Fretboard": "Maple",
     "Neck": "Maple",
@@ -323,11 +323,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/503289/15665665_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/503289/15665670_800.jpg"
     ],
-    "stockQuantity":24
+    "stockQuantity": 24
   },
   {
-    "type":"Guitar",
-    "brand":"Fender",
+    "type": "Guitar",
+    "brand": "Fender",
     "Colour": "Sunburst",
     "Fretboard": "Rosewood",
     "Neck": "Maple",
@@ -342,11 +342,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/452969/13670976_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/452969/13670971_800.jpg"
     ],
-    "stockQuantity":19
+    "stockQuantity": 19
   },
   {
-    "type":"Guitar",
-    "brand":"Cort",
+    "type": "Guitar",
+    "brand": "Cort",
     "Colour": "Black",
     "Neck": "Maple",
     "Fretboard": "Laurel",
@@ -354,11 +354,11 @@
     "price": 839,
     "name": "Cort MBM-2H Manson Meta SUS SB",
     "pictures": [],
-    "stockQuantity":2
+    "stockQuantity": 2
   },
   {
-    "type":"Guitar",
-    "brand":"Epiphone",
+    "type": "Guitar",
+    "brand": "Epiphone",
     "Colour": "Sunburst",
     "Neck": "Mahogany",
     "Fretboard": "Laurel",
@@ -383,11 +383,11 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/518605/16362398_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/518605/16362373_800.jpg"
     ],
-    "stockQuantity":10
+    "stockQuantity": 10
   },
   {
-    "type":"Guitar",
-    "brand":"Schecter",
+    "type": "Guitar",
+    "brand": "Schecter",
     "Colour": "Atomic Frost",
     "Neck": "Maple",
     "Fretboard": "Ebony",
@@ -409,6 +409,6 @@
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/488289/16202976_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb600x600/pics/bdb/488289/16202911_800.jpg"
     ],
-    "stockQuantity":18
+    "stockQuantity": 18
   }
 ]

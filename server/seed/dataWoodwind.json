@@ -14,7 +14,7 @@
     "body": "brass",
     "resonatorPad": "metal",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -32,7 +32,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -50,7 +50,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -69,7 +69,7 @@
     "body": "brass",
     "resonatorPad": "metal",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -88,7 +88,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -107,7 +107,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -126,7 +126,7 @@
     "body": "gold brass",
     "resonatorPad": "metal",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -145,7 +145,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -163,7 +163,7 @@
     "body": "brass",
     "resonatorPad": "plastic",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
 
@@ -183,7 +183,7 @@
     "body": "brass",
     "resonatorPad": "metal",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -203,7 +203,7 @@
     "body": "gold brass",
     "resonatorPad": "metal",
     "caseWithBackpackSystem": false,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -222,7 +222,7 @@
     "body": "brass",
     "resonatorPad": "null",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   },
   {
@@ -231,18 +231,17 @@
     "price": 2777,
     "name": "Thomann BariPRO VG Baritone Sax",
     "pictures": [
-        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133910_800.jpg",
-        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8132965_800.jpg",
-        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133945_800.jpg",
-        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133925_800.jpg",
-        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133935_800.jpg"
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133910_800.jpg",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8132965_800.jpg",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133945_800.jpg",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133925_800.jpg",
+      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/324845/8133935_800.jpg"
     ],
     "type": "baritone",
     "body": "brass",
     "resonatorPad": "null",
     "caseWithBackpackSystem": true,
-    "wiper":false,
+    "wiper": false,
     "stockQuantity": 3
   }
 ]
-

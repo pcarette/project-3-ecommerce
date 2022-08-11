@@ -19,9 +19,7 @@
   },
   {
     "price": 5999,
-    "pictures": [
-      "https://images.static-thomann.de/pics/bdb/464489/17072333_800.jpg"
-    ],
+    "pictures": ["https://images.static-thomann.de/pics/bdb/464489/17072333_800.jpg"],
     "name": "Le Fay Singer 6 Maple",
     "stockQuantity": 2,
     "brand": "Le fay",
@@ -123,9 +121,7 @@
   },
   {
     "price": 7399,
-    "pictures": [
-      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/380369/17179743_800.jpg"
-    ],
+    "pictures": ["https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/380369/17179743_800.jpg"],
     "name": "Marleaux Contra 5 fretless",
     "stockQuantity": 1,
     "brand": "Marleaux",

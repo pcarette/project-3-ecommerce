@@ -1,20 +1,18 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect, createContext } from 'react'
 
-const FilterContext = createContext();
+const FilterContext = createContext()
 
 function FilterProviderWrapper({ children }) {
-  const [productsList, setProductsList] = useState([]);
+  const [productsList, setProductsList] = useState([])
   const [isProductLoaded, setIsProductLoaded] = useState(false)
-  const [minPriceSelected, setMinPriceSelected] = useState(0);
-  const [maxPriceSelected, setMaxPriceSelected] = useState(3000);
-  const [ratingSelected, setRatingSelected] = useState([true,true,true,true,true,true]);
-  const [categorySelected, setCategorySelected] = useState("All");
+  const [minPriceSelected, setMinPriceSelected] = useState(0)
+  const [maxPriceSelected, setMaxPriceSelected] = useState(3000)
+  const [ratingSelected, setRatingSelected] = useState([true, true, true, true, true, true])
+  const [categorySelected, setCategorySelected] = useState('All')
 
-  useEffect(()=>{
-  },[productsList])
+  useEffect(() => {}, [productsList])
 
-  useEffect(()=>{
-  },[isProductLoaded])
+  useEffect(() => {}, [isProductLoaded])
 
   return (
     <FilterContext.Provider
@@ -29,13 +27,13 @@ function FilterProviderWrapper({ children }) {
         setRatingSelected,
         categorySelected,
         setCategorySelected,
-        isProductLoaded, 
-        setIsProductLoaded
+        isProductLoaded,
+        setIsProductLoaded,
       }}
     >
       {children}
     </FilterContext.Provider>
-  );
+  )
 }
 
-export { FilterContext, FilterProviderWrapper };
+export { FilterContext, FilterProviderWrapper }

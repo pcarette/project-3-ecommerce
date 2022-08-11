@@ -1,22 +1,22 @@
-import axios from "axios";
-import React, { createContext, useEffect, useState } from "react";
+import axios from 'axios'
+import React, { createContext, useEffect, useState } from 'react'
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
-const AuthContext = createContext();
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001'
+const AuthContext = createContext()
 
 function AuthProviderWrapper({ children }) {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-  const [user, setUser] = useState(null);
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+  const [user, setUser] = useState(null)
 
   const storeToken = (token) => {
-    localStorage.setItem("authToken", token);
-  };
+    localStorage.setItem('authToken', token)
+  }
 
   const authenticateUser = () => {
-    const storedToken = localStorage.getItem("authToken");
+    const storedToken = localStorage.getItem('authToken')
     if (storedToken) {
-      setIsLoading(true);
+      setIsLoading(true)
       axios
         .get(`${API_URL}/auth/verify`, {
           headers: {
@@ -24,34 +24,34 @@ function AuthProviderWrapper({ children }) {
           },
         })
         .then((ans) => {
-          setIsLoggedIn(true);
-          setIsLoading(false);
-          setUser(ans.data);
+          setIsLoggedIn(true)
+          setIsLoading(false)
+          setUser(ans.data)
         })
         .catch(() => {
-          setIsLoggedIn(false);
-          setIsLoading(false);
-          setUser(null);
-        });
+          setIsLoggedIn(false)
+          setIsLoading(false)
+          setUser(null)
+        })
     } else {
-      setIsLoggedIn(false);
-      setIsLoading(false);
-      setUser(null);
+      setIsLoggedIn(false)
+      setIsLoading(false)
+      setUser(null)
     }
-  };
+  }
 
   const removeToken = () => {
-    localStorage.removeItem("authToken");
-  };
+    localStorage.removeItem('authToken')
+  }
 
   const logOutUser = () => {
-    removeToken();
-    authenticateUser();
-  };
+    removeToken()
+    authenticateUser()
+  }
 
   useEffect(() => {
-    authenticateUser();
-  }, []);
+    authenticateUser()
+  }, [])
 
   return (
     <AuthContext.Provider
@@ -66,7 +66,7 @@ function AuthProviderWrapper({ children }) {
     >
       {children}
     </AuthContext.Provider>
-  );
+  )
 }
 
-export { AuthContext, AuthProviderWrapper };
+export { AuthContext, AuthProviderWrapper }

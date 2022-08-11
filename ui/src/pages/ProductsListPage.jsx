@@ -1,12 +1,12 @@
-import axios from "axios";
-import React, { useEffect, useState, useContext } from "react";
-import { FilterContext } from "../context/productListAndFilter.context";
-import Product from "../components/Product";
-import ProductListFilter from "../components/ProductListFilter";
-import { Link } from "react-router-dom";
-import "./styles/ProductsListPage.css";
+import axios from 'axios'
+import React, { useEffect, useState, useContext } from 'react'
+import { FilterContext } from '../context/productListAndFilter.context'
+import Product from '../components/Product'
+import ProductListFilter from '../components/ProductListFilter'
+import { Link } from 'react-router-dom'
+import './styles/ProductsListPage.css'
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5005";
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5005'
 
 export default function ProductListPage() {
   const {
@@ -18,55 +18,54 @@ export default function ProductListPage() {
     categorySelected,
     isProductLoaded,
     setIsProductLoaded,
-  } = useContext(FilterContext);
+  } = useContext(FilterContext)
   // const [productsList, setProductsList] = useState([]);
-  const [isLoadingProd, setIsLoadingProd] = useState(false);
+  const [isLoadingProd, setIsLoadingProd] = useState(false)
 
-  console.log('API_URL',API_URL)
+  console.log('API_URL', API_URL)
 
   useEffect(() => {
-    setIsLoadingProd(true);
+    setIsLoadingProd(true)
     axios
       .get(`${API_URL}/product`)
       .then((ans) => {
-        setProductsList(ans.data);
-        setIsLoadingProd(false);
-        setIsProductLoaded(true);
+        setProductsList(ans.data)
+        setIsLoadingProd(false)
+        setIsProductLoaded(true)
       })
       .catch((e) => {
-        setIsLoadingProd(false);
-      });
-  }, []);
+        setIsLoadingProd(false)
+      })
+  }, [])
 
   return (
-    <div className="Instruments">
+    <div className='Instruments'>
       <h2>Instruments</h2>
 
-      <div className="filterAndList">
+      <div className='filterAndList'>
         <ProductListFilter />
-        {isLoadingProd && <div className="progress"></div>}
-        <ul className="list">
+        {isLoadingProd && <div className='progress'></div>}
+        <ul className='list'>
           {isProductLoaded &&
             productsList
               .filter((product) => {
-                const ratingCeil = Math.ceil(product.globalRate);
+                const ratingCeil = Math.ceil(product.globalRate)
                 return (
                   product.price < maxPriceSelected &&
                   product.price >= minPriceSelected &&
                   ratingSelected[ratingCeil] &&
-                  (categorySelected === "All" ||
-                    product.type === categorySelected)
-                );
+                  (categorySelected === 'All' || product.type === categorySelected)
+                )
               })
               .map((product) => {
                 return (
                   <Link key={product._id} to={`/product/${product._id}`}>
                     <Product product={product} />
                   </Link>
-                );
+                )
               })}
         </ul>
       </div>
     </div>
-  );
+  )
 }

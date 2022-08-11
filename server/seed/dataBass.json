@@ -19,9 +19,7 @@
   },
   {
     "price": 5999,
-    "pictures": [
-      "https://images.static-thomann.de/pics/bdb/464489/17072333_800.jpg"
-    ],
+    "pictures": ["https://images.static-thomann.de/pics/bdb/464489/17072333_800.jpg"],
     "name": "Le Fay Singer 6 Maple",
     "stockQuantity": 2,
     "brand": "Le fay",
@@ -123,9 +121,7 @@
   },
   {
     "price": 7399,
-    "pictures": [
-      "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/380369/17179743_800.jpg"
-    ],
+    "pictures": ["https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/380369/17179743_800.jpg"],
     "name": "Marleaux Contra 5 fretless",
     "stockQuantity": 1,
     "brand": "Marleaux",
@@ -211,7 +207,7 @@
   {
     "neck": "Maple",
     "fretboard": "Laurel",
-    "brand":"Squier",
+    "brand": "Squier",
     "frets": 20,
     "price": 444,
     "type": "Bass",
@@ -234,6 +230,6 @@
       "https://thumbs.static-thomann.de/thumb/thumb80x80/pics/bdb/535979/17220588_800.jpg",
       "https://thumbs.static-thomann.de/thumb/thumb80x80/pics/bdb/535979/17220583_800.jpg"
     ],
-    "stockQuantity":10
+    "stockQuantity": 10
   }
 ]

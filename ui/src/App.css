@@ -1,8 +1,7 @@
-
 .App {
   text-align: center;
-  max-width:100%;
-  margin:0 auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -43,79 +42,81 @@
 /*SPIN LOADER*/
 
 @keyframes spin {
-	to { transform: rotate(1turn); }
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .progress {
-	position: relative;
-	display: inline-block;
-	width: 5em;
-	height: 5em;
-	margin: 0 .5em;
-	font-size: 12px;
-	text-indent: 999em;
-	overflow: hidden;
-	animation: spin 3s infinite steps(12);
+  position: relative;
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  margin: 0 0.5em;
+  font-size: 12px;
+  text-indent: 999em;
+  overflow: hidden;
+  animation: spin 3s infinite steps(12);
 }
 
 .small.progress {
-	font-size: 6px;
+  font-size: 6px;
 }
 
 .large.progress {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .progress:before,
 .progress:after,
 .progress > div:before,
 .progress > div:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 2.25em; /* (container width - part width)/2  */
-	width: .5em;
-	height: 1.5em;
-	border-radius: .2em;
-	background: #eee;
-	box-shadow: 0 3.5em #eee; /* container height - part height */
-	transform-origin: 50% 2.5em; /* container height / 2 */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2.25em; /* (container width - part width)/2  */
+  width: 0.5em;
+  height: 1.5em;
+  border-radius: 0.2em;
+  background: #eee;
+  box-shadow: 0 3.5em #eee; /* container height - part height */
+  transform-origin: 50% 2.5em; /* container height / 2 */
 }
 
 .progress:before {
-	background: #ccc;
+  background: #ccc;
 }
 
 .progress:after {
-	transform: rotate(-45deg);
-	background: #777;
+  transform: rotate(-45deg);
+  background: #777;
 }
 
 .progress > div:before {
-	transform: rotate(-90deg);
-	background: #999;
+  transform: rotate(-90deg);
+  background: #999;
 }
 
 .progress > div:after {
-	transform: rotate(-135deg);
-	background: #bbb;
+  transform: rotate(-135deg);
+  background: #bbb;
 }
- 
-.CurlyButton {
-	border: 3px solid rgba(102, 221, 216, 0.5);
-	color: #282c34;
-	border-radius: 50px;
-	align-items: center;
-	padding: 8px 26px;
-	gap: 10px;
-	background: none;
-	cursor: pointer;
- }
- .CurlyButton:hover {
-	background: black;
-	color: white;
- }
 
- .error{
-	color:red
- }
+.CurlyButton {
+  border: 3px solid rgba(102, 221, 216, 0.5);
+  color: #282c34;
+  border-radius: 50px;
+  align-items: center;
+  padding: 8px 26px;
+  gap: 10px;
+  background: none;
+  cursor: pointer;
+}
+.CurlyButton:hover {
+  background: black;
+  color: white;
+}
+
+.error {
+  color: red;
+}
